@@ -1431,4 +1431,18 @@ textarea.contact-input {
       background-color: black;
     }
 
- 
+    @media (max-width: 768px) {
+      /* Mobile-first styles */
+      
+body {
+  font-size: 16px;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+    }
